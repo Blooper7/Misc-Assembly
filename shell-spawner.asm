@@ -1,3 +1,6 @@
+; Author: Blooper7
+; Architecture: Intel x86-64
+
 global _start
 
 BITS 64                         ; We're writing 64 bit code
