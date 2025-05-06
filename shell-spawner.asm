@@ -12,7 +12,7 @@ section .text
     push rbx                    ; Send the code to the stack
     mov rdi, rsp                ; Make rdi point to rsp
     xor rsi, rsi                ; Set args to none
-    xor rdx, rdx                ; Set environment variables to none
+    xor rdx, rdx                ; Set environment args to none
     mov al, 59                  ; Syscall number for execve
     syscall                     ; Call that sucker
 
